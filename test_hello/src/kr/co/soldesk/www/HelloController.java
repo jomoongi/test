@@ -16,6 +16,8 @@ public class HelloController implements Controller {
 		
 		ModelAndView mav=new ModelAndView();
 		
+		//test
+		
 		/*mav.addObject("속성", "전달값");*/
 		mav.addObject("msg", "안녕하세요");//안녕하세요 라는 값이 msg에 담긴다.
 		mav.setViewName("hello");//hello만 넘어간다.
